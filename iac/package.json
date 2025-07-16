@@ -1,0 +1,14 @@
+{
+  "name": "iac",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "cdktf deploy",
+    "destroy": "cdktf destroy"
+  },
+  "dependencies": {
+    "cdktf": "^0.20.5",
+    "constructs": "^10.0.0",
+    "@cdktf/provider-aws": "^19.0.0"
+  }
+}
